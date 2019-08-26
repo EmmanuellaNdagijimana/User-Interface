@@ -4,15 +4,17 @@
 
 }
 body{
-    background-color: #615d13;
+    background-color: #D6EAF8;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  .header{
-    
+    width: 200vw;
+    height: 10vh;
     display:flex;
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: flex-end;
+    
     
 }
  .box{
@@ -25,28 +27,14 @@ body{
 
 }
 .green{
-    background-color: green;
+    background-color: grey;
     flex-grow: 10;
     text-align: left;
 
 }
-.red{
-    background-color: red;
-  
-}
-.orange{
-    background-color: orange;
-    
-}
-.purple{
-    background-color: purple;
-   
-}
-.pink{
-    background-color: pink;
-    
-}
+
 .main-content{
+    height: 200vh;
     margin-bottom: 10vh;
     display: flex;
     flex-direction: column;
@@ -65,19 +53,17 @@ body{
     justify-content: flex-end;
 }
 .content1{
-    background-color: aquamarine;
+    background-color: rgba(255, 255, 255, 0.89) ;
 }
 .content2{
-    background-color: #611331;
+    background-color:rgba(255, 255, 255, 0.89) ;
 }
 .content3{
-    background-color: #071d0b;
+    background-color: rgba(255, 255, 255, 0.89) ;
 }
-.content4{
-    background-color: #eee41e;
-}
+
 .footer{
-    background-color: white;
+    background-color: grey;
     text-align: center;
     justify-content: flex-button;
     margin: bottom;
