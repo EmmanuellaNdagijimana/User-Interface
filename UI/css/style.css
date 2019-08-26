@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #615d13;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ .header{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-end;
+    
+}
+ .box{
+     padding: 20px;
+     flex-grow: 1;
+     flex-shrink: 1;
+     flex-basis: 100px;
+     text-align: center;
+     font-size: 20px;
+
+}
+.green{
+    background-color: green;
+    flex-grow: 10;
+    text-align: left;
+
+}
+.red{
+    background-color: red;
+  
+}
+.orange{
+    background-color: orange;
+    
+}
+.purple{
+    background-color: purple;
+   
+}
+.pink{
+    background-color: pink;
+    
+}
+.main-content{
+    margin-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.articles{
+  display:flex; 
+  flex-wrap: wrap; 
+  flex-direction: row;
+  justify-content: flex-end;
+ 
+}
+.article{
+    flex: 1 1 10px;
+    justify-content: flex-end;
+}
+.content1{
+    background-color: aquamarine;
+}
+.content2{
+    background-color: #611331;
+}
+.content3{
+    background-color: #071d0b;
+}
+.content4{
+    background-color: #eee41e;
+}
+.footer{
+    background-color: white;
+    text-align: center;
+    justify-content: flex-button;
+    margin: bottom;
+}
