@@ -1,70 +1,166 @@
-*{
-    padding: 0;
-    margin: 0;
-
-}
 body{
-    background-color: #D6EAF8;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
- .header{
-    width: 200vw;
+    background-color: black;
+   
+    background-image: url(/UI/assets/gigi.gif);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:100vw;
     height: 10vh;
-    display:flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    justify-content: flex-end;
+    background-attachment: fixed;
+    background-position: top;
+    }
+
+
     
-    
-}
- .box{
-     padding: 20px;
-     flex-grow: 1;
-     flex-shrink: 1;
-     flex-basis: 100px;
-     text-align: center;
-     font-size: 20px;
-
-}
-.green{
-    background-color: grey;
-    flex-grow: 10;
-    text-align: left;
-
-}
-
-.main-content{
-    height: 200vh;
-    margin-bottom: 10vh;
+    .logo{
+    height: 100%;
+    width:15%;
+    }
+    nav ul{
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
+    }
+    nav li{
+    flex: 1 0 auto;
+    }
+    nav li a{
+    display:block;
+    padding:10px;
+    font-size: 25px;
+    text-decoration: none;
     text-align: center;
-}
-.articles{
-  display:flex; 
-  flex-wrap: wrap; 
-  flex-direction: row;
-  justify-content: flex-end;
- 
-}
-.article{
-    flex: 1 1 10px;
-    justify-content: flex-end;
-}
-.content1{
-    background-color: rgba(255, 255, 255, 0.89) ;
-}
-.content2{
-    background-color:rgba(255, 255, 255, 0.89) ;
-}
-.content3{
-    background-color: rgba(255, 255, 255, 0.89) ;
+    color:black;
+    transition: background 2s;
+    }
+   
+    nav{
+    background-color:rgb(246, 243, 250);
+    
+    }
+    .nav-menu{
+    flex-grow: 
+    }
+    nav li a:hover{
+        color:black;
+    background-color: rgba(230,122,0,0,3);
+    }
+    .content{
+    
+    display:flex;
+    text-align: top;
+    text-align: center;
+    justify-content: center;
+    flex-direction: colomn;
+    }
+    .main-content{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        height: 20vh;
+        width: 100vw;
+    }
+    .articles{
+      display:flex; 
+      flex-wrap: wrap; 
+      flex-direction: row;
+      justify-content: flex-end;
+     
+    }
+    .article{
+        flex: 1 1 10px;
+        justify-content: flex-end;
+    }
+    .content h1{
+    font-size: 25px;
+    margin-left:180px;
+    
+
+    }
+    .content-b{
+      height: 10vh;
+      width: 100vw;
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+    }
+    
+    .footer{
+        display:flex;
+        background-color: white;
+        height:30vh;
+        width:100vw;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+    }
+   
+    .main-content2{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .articles{
+      display:flex; 
+      flex-wrap: wrap; 
+      flex-direction: row;
+      justify-content: flex-end;
+     
+    }
+    .article{
+        flex: 1 1 10px;
+        justify-content: flex-end;
+    }
+    .kiki{
+        width:100vw;
+        height:50vh;
+         background-color:rgb(233, 243, 250); 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+     
+      }
+      * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-.footer{
-    background-color: grey;
-    text-align: center;
-    justify-content: flex-button;
-    margin: bottom;
+/* Hide the images by default */
+.mySlides {
+  display: none;
+
 }
+
+.footer1{
+  display:flex;
+  background-color: white;
+  height:80vh;
+  width:100vw;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
+  
+    
+
+        
+    
+   
+}
+.footer2{
+  display:flex;
+  background-color: white;
+  height:30vh;
+  width:100vw;
+  flex-direction:column;
+  justify-content: center;
+  text-align: center;
