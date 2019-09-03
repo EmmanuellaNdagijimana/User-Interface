@@ -1,7 +1,7 @@
 body{
     background-color: black;
    
-    background-image: url(/UI/assets/nature.jpg);
+    background-image: url(../assets/nature.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     width:100vw;
@@ -40,9 +40,7 @@ body{
     background-color:rgb(246, 243, 250);
     
     }
-    .nav-menu{
-    flex-grow: 
-    }
+    
     nav li a:hover{
         color:black;
     background-color: rgba(230,122,0,0,3);
@@ -178,3 +176,4 @@ body{
   flex-direction:column;
   justify-content: center;
   text-align: center;
+}
