@@ -1,0 +1,22 @@
+{
+  "name": "mydiary",
+  "version": "1.0.0",
+  "description": "diary entries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmanuellaNdagijimana/User-Interface.git"
+  },
+  "author": "Emmanuella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmanuellaNdagijimana/User-Interface/issues"
+  },
+  "homepage": "https://github.com/EmmanuellaNdagijimana/User-Interface#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
