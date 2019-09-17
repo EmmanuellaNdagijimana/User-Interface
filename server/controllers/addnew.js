@@ -1,5 +1,6 @@
 import data from '../models/db';
-router.post('/', function (req, res) {
+
+const addnew= function (req, res) {
     let itemIds = data.map(item => item.id);
     
   
@@ -15,5 +16,5 @@ router.post('/', function (req, res) {
     data.push(newItem);
 
   res.status(201).json(newItem);
-});
+};
 export default addnew;

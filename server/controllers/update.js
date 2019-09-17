@@ -1,5 +1,6 @@
 import data from '../models/db';
-router.put('/:id', function (req, res) {
+
+const update= function (req, res) {
     let found = data.find(function (item) {
       return item.id === parseInt(req.params.id);
     });
@@ -20,5 +21,5 @@ router.put('/:id', function (req, res) {
     } else {
       res.sendStatus(404);
     }
-  });
-  export default router;
+  };
+  export default update;
