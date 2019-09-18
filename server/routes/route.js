@@ -10,6 +10,6 @@ const router = express.Router();
 router.get('/api/v1/db', all);
 router.get('/api/v1/db/:id',specific);
 router.post('/api/v1/db/', addnew);
-router.put('/api/v1/db/id', update);
+router.put('/api/v1/db/:id', update);
 
 export default router;
