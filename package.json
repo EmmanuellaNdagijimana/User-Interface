@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node index.jsm",
+    "start": "node index.jsm",
     "dev": "nodemon --exec babel-node index.js"
   },
   "repository": {
@@ -26,6 +26,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.19.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1"
   }
 }
