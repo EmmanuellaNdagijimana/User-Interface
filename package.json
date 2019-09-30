@@ -4,7 +4,7 @@
   "description": "diary entries",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --require @babel/register ./api.js",
     "build": "babel server -d build",
     "start": "nodemon -r esm ./server/index.js",
     "dev": "nodemon --exec babel-node ./server/index.js"
@@ -29,6 +29,10 @@
     "@babel/cli": "^7.6.0",
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.6.1",
-    "@babel/preset-env": "^7.6.0"
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0",
+    "chai-http": "^4.3.0"
   }
 }
