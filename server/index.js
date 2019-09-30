@@ -9,9 +9,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use('/', router);
 
-const PORT = process.env.PORT || 4001;
+const PORT = process.env.PORT || 4002;
 app.listen( PORT, function(){
- console.log(`server is running on PORT ${PORT}`)
+ console.log(`server listern on PORT ${PORT}`)
 });
 
 export default app;
