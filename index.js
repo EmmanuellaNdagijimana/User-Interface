@@ -1,17 +1,22 @@
-import express from 'express';
-import bodyParser from 'body-parser';
-import router from './User-Interface/server/routes/route'; 
+//import express from 'express';
+//import bodyParser from 'body-parser';
+//import router from './User-Interface/server/routes/route'; 
 
+const express = require('express');
 const app = express();
 
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use('/', router);
+const port = process.env.PORT || 4001;
 
-const PORT = process.env.PORT || 4002;
-app.listen( PORT, function(){
- console.log(`server listern on PORT ${PORT}`)
+
+// Add route code Here
+app.get('/', (req, res) => {
+   res.send('Welcome to mydiary');
+});
+
+
+app.listen(port, () => {
+   console.log(`server listen on port:${port}`);
 });
 
 export default app;
